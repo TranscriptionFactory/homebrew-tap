@@ -2,12 +2,12 @@ cask "badgerly" do
   version "1.1.0"
 
   on_arm do
-    sha256 "a03b02f50eded81b6f0b5a8f7533b987aad670385a9edebb6a0434fb4cf0a20b"
+    sha256 "f446fed081326d139e5461a06c19cc2908f26eb8783156963dd8b7831af9eedc"
     url "https://github.com/TranscriptionFactory/badgerly/releases/download/v#{version}/badgerly_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "7332ee9cc5fe39316846ea9fee8ff92f1246318085a946c51ca4f3a71c68da59"
+    sha256 "c216625aba8fefe0e64d40a17fd318c154e2d29de4721194d27c939586759a70"
     url "https://github.com/TranscriptionFactory/badgerly/releases/download/v#{version}/badgerly_#{version}_x64.dmg"
   end
 
