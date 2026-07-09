@@ -1,13 +1,13 @@
 cask "carbide" do
-  version "2.11.0"
+  version "2.11.1"
 
   on_arm do
-    sha256 "2cf5c85cb513a40cd5033673d09eef67a6911da39ed96de9b2f892abacc7e3b3"
+    sha256 "527c813ede9009a9a8405934b56087b2d18fdb54440c47231c106f1fce4252f2"
     url "https://github.com/TranscriptionFactory/carbide/releases/download/v#{version}/carbide_#{version}_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "f32f6f1277c337ea023177d37a968869ec9e20d80342a6a29f41b5267c393c1a"
+    sha256 "eceed8c970ab19006b905d2e763e549f147dddae25330f689a65c2acb8f683b1"
     url "https://github.com/TranscriptionFactory/carbide/releases/download/v#{version}/carbide_#{version}_x64.dmg"
   end
 
